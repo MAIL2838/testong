@@ -380,25 +380,25 @@ const BlogPostPage: React.FC = () => {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.autopilotai.in',
+          item: 'https://autopilotaihq.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Blog',
-          item: 'https://www.autopilotai.in/blog',
+          item: 'https://autopilotaihq.com/blog',
         },
         {
           '@type': 'ListItem',
           position: 3,
           name: post.category,
-          item: `https://www.autopilotai.in/blog?category=${post.category}`,
+          item: `https://autopilotaihq.com/blog?category=${post.category}`,
         },
         {
           '@type': 'ListItem',
           position: 4,
           name: post.title,
-          item: `https://www.autopilotai.in/blog/${post.slug}`,
+          item: `https://autopilotaihq.com/blog/${post.slug}`,
         },
       ],
     },
@@ -422,19 +422,19 @@ const BlogPostPage: React.FC = () => {
       <SEO
         title={`${post.title} - AutoPilotAI Blog`}
         description={post.description}
-        canonicalUrl={`https://www.autopilotai.in/blog/${post.slug}`}
+        canonicalUrl={`https://autopilotaihq.com/blog/${post.slug}`}
         ogType="article"
         ogImageAlt={`${post.title} - AutoPilotAI Blog`}
         twitterImageAlt={`${post.title} - AutoPilotAI Blog`}
         keywords={post.tags}
         author={post.author}
-        authorUrl="https://www.autopilotai.in"
+        authorUrl="https://autopilotaihq.com"
         publishedDate={post.publishedDate}
         updatedDate={post.updatedDate}
         schema={schemaData}
         hreflangs={[
-          { lang: 'en', url: `https://www.autopilotai.in/blog/${post.slug}` },
-          { lang: 'en-IN', url: `https://www.autopilotai.in/blog/${post.slug}` },
+          { lang: 'en', url: `https://autopilotaihq.com/blog/${post.slug}` },
+          { lang: 'en-IN', url: `https://autopilotaihq.com/blog/${post.slug}` },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">

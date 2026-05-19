@@ -72,7 +72,7 @@ const HowItWorksSection: React.FC = () => {
     description: 'Get started with AI automation in three simple steps using AutoPilotAI',
     image: {
       '@type': 'ImageObject',
-      url: 'https://www.autopilotai.in/howto-placeholder.png',
+      url: 'https://autopilotaihq.com/howto-placeholder.png',
       width: 1200,
       height: 600,
     },
@@ -90,7 +90,7 @@ const HowItWorksSection: React.FC = () => {
       text: step.description,
       image: {
         '@type': 'ImageObject',
-        url: `https://www.autopilotai.in/step-${index + 1}-placeholder.png`,
+        url: `https://autopilotaihq.com/step-${index + 1}-placeholder.png`,
         width: 800,
         height: 600,
       },
