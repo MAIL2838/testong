@@ -196,7 +196,7 @@ const StaticContactForm: React.FC<StaticContactFormProps> = ({
                     <h4 className="text-lg font-semibold text-gray-900 dark:text-white mb-2 group-hover:gradient-text transition-all duration-300">
                       Email Us
                     </h4>
-                    <p className="text-gray-600 dark:text-gray-300">teams@autopilotai.in</p>
+                    <p className="text-gray-600 dark:text-gray-300">Solution@AutopilotAIhq.com</p>
                     <p className="text-gray-500 dark:text-gray-400 text-sm">We respond within 24 hours</p>
                     <p className="text-blue-600 dark:text-blue-400 text-sm font-medium mt-2 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
                       Click to send email →
