@@ -37,7 +37,7 @@ const BlogIndexPage: React.FC = () => {
       '@type': 'Blog',
       name: 'AutoPilotAI Blog',
       description: 'Latest insights on AI automation, industry trends, and best practices',
-      url: 'https://www.autopilotai.in/blog',
+      url: 'https://autopilotaihq.com/blog',
       blogPosts: blogPosts.map((post) => ({
         '@type': 'BlogPosting',
         headline: post.title,
@@ -49,7 +49,7 @@ const BlogIndexPage: React.FC = () => {
           '@type': 'Person',
           name: post.author,
         },
-        url: `https://www.autopilotai.in/blog/${post.slug}`,
+        url: `https://autopilotaihq.com/blog/${post.slug}`,
       })),
     },
     {
@@ -60,13 +60,13 @@ const BlogIndexPage: React.FC = () => {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.autopilotai.in',
+          item: 'https://autopilotaihq.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Blog',
-          item: 'https://www.autopilotai.in/blog',
+          item: 'https://autopilotaihq.com/blog',
         },
       ],
     },
@@ -77,7 +77,7 @@ const BlogIndexPage: React.FC = () => {
       <SEO
         title="Blog - AutoPilotAI | AI Automation Insights & Trends"
         description="Read the latest articles on AI automation, business automation trends, customer support strategies, and AI implementation best practices."
-        canonicalUrl="https://www.autopilotai.in/blog"
+        canonicalUrl="https://autopilotaihq.com/blog"
         ogImageAlt="AutoPilotAI Blog - AI Automation Insights & Trends"
         twitterImageAlt="AutoPilotAI Blog - AI Automation Insights"
         keywords={[
@@ -89,8 +89,8 @@ const BlogIndexPage: React.FC = () => {
         ]}
         schema={schemaData}
         hreflangs={[
-          { lang: 'en', url: 'https://www.autopilotai.in/blog' },
-          { lang: 'en-IN', url: 'https://www.autopilotai.in/blog' },
+          { lang: 'en', url: 'https://autopilotaihq.com/blog' },
+          { lang: 'en-IN', url: 'https://autopilotaihq.com/blog' },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">

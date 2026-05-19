@@ -46,13 +46,13 @@ const FAQPage: React.FC = () => {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.autopilotai.in',
+          item: 'https://autopilotaihq.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'FAQ',
-          item: 'https://www.autopilotai.in/faq',
+          item: 'https://autopilotaihq.com/faq',
         },
       ],
     },
@@ -63,7 +63,7 @@ const FAQPage: React.FC = () => {
       <SEO
         title="FAQ - AutoPilotAI | Frequently Asked Questions"
         description="Get answers to common questions about AutoPilotAI. Learn about integrations, security, pricing, and how to get started with AI automation."
-        canonicalUrl="https://www.autopilotai.in/faq"
+        canonicalUrl="https://autopilotaihq.com/faq"
         ogImageAlt="AutoPilotAI - Frequently Asked Questions"
         twitterImageAlt="AutoPilotAI FAQ - Common Questions Answered"
         keywords={[
@@ -76,8 +76,8 @@ const FAQPage: React.FC = () => {
         ]}
         schema={schemaData}
         hreflangs={[
-          { lang: 'en', url: 'https://www.autopilotai.in/faq' },
-          { lang: 'en-IN', url: 'https://www.autopilotai.in/faq' },
+          { lang: 'en', url: 'https://autopilotaihq.com/faq' },
+          { lang: 'en-IN', url: 'https://autopilotaihq.com/faq' },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">

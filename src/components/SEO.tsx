@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 const SITE_NAME = 'AutoPilotAI';
-const BASE_URL = 'https://www.autopilotai.in';
+const BASE_URL = 'https://autopilotaihq.com';
 const LOGO_URL = 'https://i.postimg.cc/DzwJ1cyC/Autopilot-AI-logo.png';
 const DEFAULT_OG_IMAGE = LOGO_URL;
 const DEFAULT_TWITTER_IMAGE = LOGO_URL;

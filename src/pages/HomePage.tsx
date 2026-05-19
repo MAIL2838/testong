@@ -23,7 +23,7 @@ const HomePage: React.FC<HomePageProps> = ({ onCTAClick, onCallbackClick, onEmai
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      url: 'https://www.autopilotai.in',
+      url: 'https://autopilotaihq.com',
       name: 'AutoPilotAI',
       description:
         'AI automation platform for customer support, scheduling, lead capture, and more. Transform your business with intelligent automation.',
@@ -31,7 +31,7 @@ const HomePage: React.FC<HomePageProps> = ({ onCTAClick, onCallbackClick, onEmai
         '@type': 'SearchAction',
         target: {
           '@type': 'EntryPoint',
-          urlTemplate: 'https://www.autopilotai.in/search?q={search_term_string}',
+          urlTemplate: 'https://autopilotaihq.com/search?q={search_term_string}',
         },
       },
       speakable: {
@@ -47,7 +47,7 @@ const HomePage: React.FC<HomePageProps> = ({ onCTAClick, onCallbackClick, onEmai
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.autopilotai.in',
+          item: 'https://autopilotaihq.com',
         },
       ],
     },
@@ -58,7 +58,7 @@ const HomePage: React.FC<HomePageProps> = ({ onCTAClick, onCallbackClick, onEmai
       <SEO
         title="AutoPilotAI - AI Automation for Customer Support, Scheduling & Lead Capture"
         description="AutoPilotAI automates customer support, scheduling, lead capture, and more with intelligent AI. Start automating your business today with our no-code platform."
-        canonicalUrl="https://www.autopilotai.in"
+        canonicalUrl="https://autopilotaihq.com"
         ogImage="https://i.postimg.cc/DzwJ1cyC/Autopilot-AI-logo.png"
         ogImageAlt="AutoPilotAI - AI Automation Platform for Customer Support, Scheduling & Lead Capture"
         twitterImage="https://i.postimg.cc/DzwJ1cyC/Autopilot-AI-logo.png"
@@ -74,8 +74,8 @@ const HomePage: React.FC<HomePageProps> = ({ onCTAClick, onCallbackClick, onEmai
         ]}
         schema={schemaData}
         hreflangs={[
-          { lang: 'en', url: 'https://www.autopilotai.in' },
-          { lang: 'en-IN', url: 'https://www.autopilotai.in' },
+          { lang: 'en', url: 'https://autopilotaihq.com' },
+          { lang: 'en-IN', url: 'https://autopilotaihq.com' },
         ]}
       />
       <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-purple-50 dark:from-slate-900 dark:via-slate-800 dark:to-slate-900 transition-colors duration-300">
