@@ -29,7 +29,7 @@ const UnsubscribePage: React.FC = () => {
 
     try {
       const response = await fetch(
-        'https://n8n-may.autopilotaihq.com/webhook/a8f1371d-a3c7-4834-b3ab-e10cee0dd4e4',
+        'https://n8n-may.autopilotaihq.com/webhook-test/4464058c-4706-4be9-847b-6e7700252b7c',
         {
           method: 'POST',
           headers: {
@@ -67,13 +67,13 @@ const UnsubscribePage: React.FC = () => {
           '@type': 'ListItem',
           position: 1,
           name: 'Home',
-          item: 'https://www.autopilotai.in',
+          item: 'https://www.autopilotaihq.com',
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: 'Unsubscribe',
-          item: 'https://www.autopilotai.in/unsubscribe',
+          item: 'https://www.autopilotaihq.com/unsubscribe',
         },
       ],
     },
@@ -84,7 +84,7 @@ const UnsubscribePage: React.FC = () => {
       <SEO
         title="Unsubscribe - AutoPilotAI"
         description="Manage your subscription preferences for AutoPilotAI communications."
-        canonicalUrl="https://www.autopilotai.in/unsubscribe"
+        canonicalUrl="https://www.autopilotaihq.com/unsubscribe"
         ogImageAlt="AutoPilotAI - Unsubscribe"
         twitterImageAlt="AutoPilotAI - Unsubscribe"
         keywords={['unsubscribe', 'subscription', 'preferences']}
