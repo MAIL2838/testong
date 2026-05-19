@@ -27,7 +27,7 @@ interface SEOProps {
 }
 
 const SEO: React.FC<SEOProps> = ({
-  title = `${SITE_NAME} - AI Automation for Customer Support, Scheduling & Lead Capture`,
+  title = `${SITE_NAME} | AI Automation Agency`,
   description = 'AutoPilotAI automates customer support, scheduling, lead capture, and more with intelligent AI. Start automating your business today with our no-code platform.',
   canonicalUrl = BASE_URL,
   ogType = 'website',

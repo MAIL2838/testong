@@ -56,7 +56,7 @@ const HomePage: React.FC<HomePageProps> = ({ onCTAClick, onCallbackClick, onEmai
   return (
     <>
       <SEO
-        title="AutoPilotAI - AI Automation for Customer Support, Scheduling & Lead Capture"
+        title="AutoPilotAI | AI Automation Agency"
         description="AutoPilotAI automates customer support, scheduling, lead capture, and more with intelligent AI. Start automating your business today with our no-code platform."
         canonicalUrl="https://autopilotaihq.com"
         ogImage="https://i.postimg.cc/DzwJ1cyC/Autopilot-AI-logo.png"
