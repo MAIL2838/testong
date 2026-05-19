@@ -29,7 +29,7 @@ const UnsubscribePage: React.FC = () => {
 
     try {
       const response = await fetch(
-        'https://n8n-may.autopilotaihq.com/webhook-test/4464058c-4706-4be9-847b-6e7700252b7c',
+        'https://n8n-may.autopilotaihq.com/webhook/4464058c-4706-4be9-847b-6e7700252b7c',
         {
           method: 'POST',
           headers: {
