@@ -254,6 +254,10 @@ const TestimonialsSection: React.FC = () => {
       bestRating: '5',
       worstRating: '1',
     },
+    itemReviewed: {
+      '@type': 'Organization',
+      name: 'AutoPilotAI',
+    },
     reviewBody: testimonial.quote,
     author: {
       '@type': 'Person',
@@ -265,6 +269,10 @@ const TestimonialsSection: React.FC = () => {
   const aggregateRatingSchema = {
     '@context': 'https://schema.org',
     '@type': 'AggregateRating',
+    itemReviewed: {
+      '@type': 'Organization',
+      name: 'AutoPilotAI',
+    },
     ratingValue: '5',
     bestRating: '5',
     worstRating: '1',
