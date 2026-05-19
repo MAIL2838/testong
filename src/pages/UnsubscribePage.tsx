@@ -36,7 +36,7 @@ const UnsubscribePage: React.FC = () => {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
-            formType: 'newsletter-unsubscribe',
+            formType: 'universal-unsubscribe',
             email,
             timestamp: new Date().toISOString(),
           }),
